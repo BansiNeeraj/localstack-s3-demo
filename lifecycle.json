@@ -1,0 +1,15 @@
+{
+  "Rules": [
+    {
+      "ID": "MoveOldFiles",
+      "Filter": { "Prefix": "" },
+      "Status": "Enabled",
+      "Transitions": [
+        {
+          "Days": 30,
+          "StorageClass": "STANDARD_IA"
+        }
+      ]
+    }
+  ]
+}
